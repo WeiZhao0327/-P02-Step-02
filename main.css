@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;    
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    
+    background-color: #F8F8F8;
+    padding: 0;
+}
+
+
+
+
+/*navigation start*/
+
+.ModularPatternElements-header_nav{
+
+  display:flex;
+  justify-content: flex-start;
+ 
+  font-size: 18px;
+
+   align-items: center;
+
+ }
+
+
+  .ModularPatternElements-header{
+    background-color:#FEEBEB;
+  display:flex;
+  justify-content: space-between;
+
+ }
+
+ .ModularPatternElements-header_icon i{
+
+  border-radius: 50%;
+    font-size:15pt;
+  padding:0.5em;
+ }
+
+ .ModularPatternElements-header_icon{
+  flex-basis:20%;
+  flex-grow: 1;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+ }
+
+ .ModularPatternElements-header_icon div{
+ 
+  margin-left: 1em;
+  margin-right: 1em;
+ }
+
+.ModularPatternElements-header_icon div a{
+
+  text-decoration:none;
+   color:black;
+ }
+
+.ModularPatternElements-header_nav a{
+  color:black;
+  text-decoration:none;
+  padding:0.5em 0.5em;
+
+ }
+
+ .Melody_nav:hover{
+  color:#EBCA94;
+
+ }
+
+
+
+
+ #Melody_logo{
+    font-size: 24px;
+    color: #EBCA94;
+
+ }
+
+
+
+
+#wholeModularPatternElements{
+    background-color: white;
+}
+
+
+/*navigation end*/
+
+/*main image begin*/
+.main_img{
+  border: 2px solid #272727;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  text-align: center;
+}
+/*main image end*/
+
+/*new arrive begin*/
+
+
+.newarrive_title{
+  margin-top: 2%;
+  margin-left: 2%;
+
+
+
+}
+
+.grid_structure{
+  display:flex;
+  margin-left: 8%;
+  margin-right: 8%;
+ }
+ .grid_structure div{
+   margin:2em;
+
+  height:120px;
+  
+   background-color: #F9D1CE;
+   text-align: center;
+   padding-top: 10%;
+   flex-basis:33.3%;
+    padding-bottom: 10%;
+ }
+
+/*new arrive end*/
+
+/*footer part start*/
+.footer_part{
+  background-color: #FEEBEB;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  margin-top: 3%;
+}
+
+.footer_part h4 {
+
+  text-align: center;
+
+
+}
+
+/*footer part end*/
+
+/*product detail start*/
+
+
+.Product_Review_form{
+  display:flex;
+  background-color: white;
+ }
+
+ .Product_Review_form div{
+ 
+  height:600px;
+   
+  margin:5%;
+
+  flex-basis:50%;
+ }
+
+ .img_product img{
+  width: 50%;
+   
+
+ }
+
+ .img_product{
+    background-image: url("img/MysticSimpleHuggies.png");
+    background-size: cover;
+ }
+
+ .detail_project h2{
+    text-align: center;
+    padding-top: 3em;
+
+ }
+
+  .detail_project h3{
+  
+    padding-top: 3em;
+
+
+  }
+
+
+
+
+  .add_button {
+    background-color: #FDFBFB;
+    font-size: 16px;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-color: #272727;    
+    border-radius: 15px;
+    outline: none;
+}
+
+
+
+.add_button:hover {
+    color: #EBCA94;
+    border: 2px solid #EBCA94;
+}
+
+
+    .reviewPart div h4{
+   
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .reviewPart div label{
+      margin-left:  20%;
+    }
+
+      .reviewPart div input{
+      margin-left: 20%;
+      padding-right: 40%;
+    
+    }
+      .reviewPart div p{
+        margin-left: 20%;
+      }
+
+
+#comments {
+    outline: none;
+    border-color: black;
+    border: 1px solid black;   
+    padding-right: 50%;
+    font-size: 16px;
+    border-left: white;
+    border-right: white;
+    border-top:white;
+
+
+}
+
+
+        .reviewPart div h3{
+        
+        margin-left: 20%;
+        text-align: left;
+        margin-right: 20%;
+        margin-top: -1%;
+    }
+
+
+  .reviewPart h3{
+    text-align: center;
+
+  }
+
+  .reviewPart h4{
+   padding-right: 6em;
+  }
+
+
+       .reviewPart div h3 a{
+        color: black;
+        font-size: 12px;
+    }
+
+      .reviewPart div h3 a:hover{
+        color: #EBCA94;
+        
+    }
+
+    .reviewPart h3 a{
+        color: black;
+    }
+
+     .reviewPart h3 a:hover{
+        color: #EBCA94;
+    }
+
+
+    .reviewPart{
+        background-color: white;
+        padding-top: 1%;
+    }
+
+
+
+/*product detail end*/
+
+
+
+
+
+/*about page start*/
+
+
+.about_part{
+  margin-top: 2%;
+  margin-left: 2%;
+
+
+
+}
+
+.about_structure{
+  margin-top: 3%;
+  display:flex;
+  margin-left: 8%;
+  margin-right: 8%;
+ }
+ .about_structure div{
+   margin:2em;
+
+  height:120px;
+  
+   background-color: #F9D1CE;
+   text-align: center;
+   padding-top: 30%;
+   flex-basis:50%;
+    padding-bottom: 30%;
+ }
+
+
+
+/*about page end*/
+
+
+
+
+
