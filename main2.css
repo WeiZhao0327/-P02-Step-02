@@ -1,13 +1,13 @@
 * {
-    box-sizing: border-box;    
+  box-sizing: border-box;    
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
-    margin: 0;
-    
-    background-color: #F8F8F8;
-    padding: 0;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  
+  background-color: #F8F8F8;
+  padding: 0;
 }
 
 
@@ -15,70 +15,70 @@ body {
 
 .ModularPatternElements-header_nav{
 
-  display:flex;
-  justify-content: flex-start;
- 
-  font-size: 18px;
+display:flex;
+justify-content: flex-start;
 
-  align-items: center;
+font-size: 18px;
 
- }
+align-items: center;
+
+}
 
 
-  .ModularPatternElements-header{
-  background-color:#FEEBEB;
-  display:flex;
-  justify-content: space-between;
- }
+.ModularPatternElements-header{
+background-color:#FEEBEB;
+display:flex;
+justify-content: space-between;
+}
 
- .ModularPatternElements-header_icon i{
+.ModularPatternElements-header_icon i{
 
-  border-radius: 50%;
-  font-size:15pt;
-  padding:0.5em;
- }
+border-radius: 50%;
+font-size:15pt;
+padding:0.5em;
+}
 
- .ModularPatternElements-header_icon{
-  flex-basis:20%;
-  flex-grow: 1;
-  display:flex;
-  justify-content: flex-end;
-  align-items: center;
- }
+.ModularPatternElements-header_icon{
+flex-basis:20%;
+flex-grow: 1;
+display:flex;
+justify-content: flex-end;
+align-items: center;
+}
 
- .ModularPatternElements-header_icon div{
- 
-  margin-left: 1em;
-  margin-right: 1em;
- }
+.ModularPatternElements-header_icon div{
+
+margin-left: 1em;
+margin-right: 1em;
+}
 
 .ModularPatternElements-header_icon div a{
 
-  text-decoration:none;
-  color:black;
- }
+text-decoration:none;
+color:black;
+}
 
 .ModularPatternElements-header_nav a{
-  color:black;
-  text-decoration:none;
-  padding:0.5em 0.5em;
- }
+color:black;
+text-decoration:none;
+padding:0.5em 0.5em;
+}
 
- .Melody_nav:hover{
-  color:#EBCA94;
+.Melody_nav:hover{
+color:#EBCA94;
 
- }
+}
 
 
- #Melody_logo{
-    font-size: 24px;
-    color: #EBCA94;
+#Melody_logo{
+  font-size: 24px;
+  color: #EBCA94;
 
- }
+}
 
 
 #wholeModularPatternElements{
-    background-color: white;
+  background-color: white;
 }
 
 /*navigation end*/
@@ -87,87 +87,79 @@ body {
 /*product list start*/
 /*product list submenu start*/
 .ModularPatternElements-submenu_nav{
-  display:flex;
-  font-size: 18px;
-  margin:0 auto;
-  width: 100%;
-  text-align: center;
-  
- }
-
-.ModularPatternElements-submenu{
-  display:inline-block;
-  margin-left: 25%;
- }
+font-size: 18px;
+text-align: center;
+margin-top: 3%;
+}
 
 .ModularPatternElements-submenu_nav a{
-  color:black;
-  text-decoration:none;
-  padding:2em 0.5em;
- }
+color:black;
+text-decoration:none;
+padding:2em 0.5em;
+}
 
- .submenu_nav:after {
-  content: " ";
-  border-left: 2px solid #000;
-  margin-left: 12px;
+.submenu_nav:after {
+content: " ";
+border-left: 2px solid #000;
+margin-left: 12px;
 
- }
+}
 
 .submenu_nav:hover{
-  color:#EBCA94;
- }
+color:#EBCA94;
+}
 
- .submenu_nav2:hover{
-  color:#EBCA94;
- }
- /*product list submenu end*/
+.submenu_nav2:hover{
+color:#EBCA94;
+}
+/*product list submenu end*/
 
 .product_list{
-  display:flex;
-  justify-content: center;
-  margin-top:3em;
-  text-align:center;
+display:flex;
+justify-content: center;
+margin-top:3em;
+text-align:center;
 }
 
 .list_img{
-  width: 45%;
+width: 70%;
 }
 
 .list_img:hover{
-   
-  transform: scale(1.1);
+ 
+transform: scale(1.1);
 
 }
 
 .list_img{
-  transition: all 0.6s;
+transition: all 0.6s;
 }
 
 .text a:hover{
-  color: #EBCA94;
+color: #EBCA94;
 
 }
 
 .text a{
-  color: #272727;
-  text-decoration: none;
+color: #272727;
+text-decoration: none;
 }
 
 
 .list_img:hover{
-   
-    transform: scale(1.1);
+ 
+  transform: scale(1.1);
 
 }
 
 .price a {
-  text-decoration: none;
-  color: #272727
+text-decoration: none;
+color: #272727
 
 }
 
 .price a:hover{
-  color: #EBCA94;
+color: #EBCA94;
 
 }
 
@@ -175,15 +167,15 @@ body {
 
 /*footer part start*/
 .footer_part{
-  background-color: #FEEBEB;
-  padding-top: 0.2%;
-  padding-bottom: 0.2%;
-  margin-top: 3%;
+background-color: #FEEBEB;
+padding-top: 0.2%;
+padding-bottom: 0.2%;
+margin-top: 3%;
 }
 
 .footer_part h4 {
 
-  text-align: center;
+text-align: center;
 
 
 }
@@ -192,69 +184,69 @@ body {
 
 /*contact page start*/
 .contact{
-  margin-top: 3%;
-  display:flex;
-  margin-left: 9%;
-  flex-basis:50%;
- }
+margin-top: 3%;
+display:flex;
+margin-left: 9%;
+flex-basis:50%;
+}
 
 
- .address div{
-  width: 200%;
-  height:150px;
-  background-color: #F9D1CE;
-  text-align: center;
-  padding-top: 30%;
-  flex-basis:50%;
-  padding-bottom: 30%;
- }
+.address div{
+width: 200%;
+height:150px;
+background-color: #F9D1CE;
+text-align: center;
+padding-top: 30%;
+flex-basis:50%;
+padding-bottom: 30%;
+}
 
 .contact_form{
-  margin-left:35%;
-  margin-top:5%;
+margin-left:35%;
+margin-top:5%;
 
 }
 
- #nameInput {
-  outline: none;
-  border-color: black;
-  border: 1px solid black;   
-  padding-right: 4em;
+#nameInput {
+outline: none;
+border-color: black;
+border: 1px solid black;   
+padding-right: 4em;
 }
 
- #emailInput {
-  outline: none;
-  border-color: black;
-  border: 1px solid black;   
-  padding-right: 4em;
+#emailInput {
+outline: none;
+border-color: black;
+border: 1px solid black;   
+padding-right: 4em;
 }
 
 #msgInput {
-  outline: none;
-  border-color: black;
-  border: 1px solid black;   
-  padding-right: 4em;
-  height:100px;
+outline: none;
+border-color: black;
+border: 1px solid black;   
+padding-right: 4em;
+height:100px;
 }
 
 .submit_button {
-  background-color: white;
-  font-size: 16px;
-  color: #272727;       /*black*/
-  padding-left: 2em;
-  padding-right: 2em;
-  border-color: #272727;    
-  border-radius: 15px;
-  outline: none;
+background-color: white;
+font-size: 16px;
+color: #272727;       /*black*/
+padding-left: 2em;
+padding-right: 2em;
+border-color: #272727;    
+border-radius: 15px;
+outline: none;
 }
 
 .submit_button:hover {
-  color: #EBCA94;
-  border: 2px solid #EBCA94;
+color: #EBCA94;
+border: 2px solid #EBCA94;
 }
 
 .button {
-  margin-top:8%;
-  text-align: center;
+margin-top:8%;
+text-align: center;
 }
 /*contact page end*/
