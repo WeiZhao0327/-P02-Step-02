@@ -259,18 +259,144 @@ text-align: center;
 /*contact page end*/
 
 /*cart page start*/
-.cart_list{
-  display:flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
+.main_cart{
+  width:100%;   
 }
 
+.cartpage{
+  width:100%;
+  margin-bottom: 20%;
+  padding-left: 5%;
+}
+
+.cart_name{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 2%;
+}
 
 .cart_img{
-  width:15%;
-  margin-top:5%;
-  margin-left:9%;
+  width:120px;
+  margin-top: 10%;
 }
 
+/*citation:https://www.bbsmax.com/A/gGdX0BQWd4/*/
+ul,
+            li {
+                list-style: none;
+            }
+ 
+            a {
+                text-decoration: none;
+            }
+ 
+            a:hover {
+                cursor: pointer;
+                text-decoration: none;
+            }
+ 
+            a:link {
+                text-decoration: none;
+            }
+ 
+            img {
+                vertical-align: middle;
+            }
+ 
+            .btn-numbox {
+                overflow: hidden;
+                margin-top: 20px;
+            }
+ 
+            .btn-numbox li {
+                float: right;
+            }
+ 
+ 
+            .btn-numbox .count {
+                overflow: hidden;
+                margin: 0 16px 0 -20px;
+            }
+ 
+            .btn-numbox .count .num-minus,
+            .input-num,
+            .num-add {
+                display: inline-block;
+                width: 28px;
+                height: 28px;
+                line-height: 28px;
+                text-align: center;
+                font-size: 18px;
+                color: #999;
+                cursor: pointer;
+                border: 1px solid #e6e6e6;
+            }
+            .btn-numbox .count .input-num {
+                width: 58px;
+                height: 26px;
+                color: #333;
+            }
 
+.cart_price{
+  text-align: right;
+  font-size: 16px;
+  font-family: bold;
+  padding-right:8%;
+}
+
+/*citation:https://blog.csdn.net/alex8046/article/details/51917069*/
+.line{
+  filter: alpha(opacity=100,finishopacity=0,style=3);
+  width:90%;
+  color:#987cb9;
+}
+
+.total_price{
+  text-align: right;
+  margin-right:5%;
+}
+
+.checkout_button {
+  background-color: white;
+  font-size: 16px;
+  color: #272727;       /*black*/
+  padding-left: 2em;
+  padding-right: 2em;
+  border-color: #272727;    
+  border-radius: 15px;
+  outline: none;
+  }
+  
+  .checkout_button:hover {
+  color: #EBCA94;
+  border: 2px solid #EBCA94;
+  }
+  
+  .button2 {
+  margin-top:2%;
+  margin-right:5%;
+  text-align: right;
+  }
+
+  .delete_button {
+    background-color: white;
+    font-size: 16px;
+    color: #272727;     
+    padding-left: 2em;
+    padding-right: 2em;
+    border-color: #272727;    
+    border-radius: 15px;
+    outline: none;
+    }
+    
+    .delete_button:hover {
+    color: #EBCA94;
+    border: 2px solid #EBCA94;
+    }
+
+    .button3 {
+      margin-top:2%;
+      margin-right:30%;
+      text-align: right;
+      }
 /*cart page end*/
