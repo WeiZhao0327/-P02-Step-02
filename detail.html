@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>P02 - Step 02 Check-in</title>
-	<meta charset="utf-8" />
+  <title>P02: Company</title>
+  <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="img">
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <script>
+    setup = function() {
+        $(".phoneView_nav").click(function() { $("nav").slideToggle("slow"); })
+    }
+    $(document).ready(setup);
+    </script>
+
+
 </head>
+
 
 <body>
 
 <div id="wholeModularPatternElements">
   <div class="ModularPatternElements-header">
+
+            <div class="phoneView_nav"><a href="javascript:void(0)"><i class="fa fa-bars"></i></a></div>
     <nav class="ModularPatternElements-header_nav">
       <a id="Melody_logo"  href="home.html">Melody</a>
 
