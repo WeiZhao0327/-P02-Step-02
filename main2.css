@@ -400,3 +400,69 @@ ul,
       text-align: right;
       }
 /*cart page end*/
+
+/*phone view navigation start*/
+.phoneView_nav{
+  display:none;
+}
+
+.phoneView_nav i{
+  color:#FFA8A8;
+  font-size:22pt;
+  
+  margin:0.3rem;
+
+
+}
+
+
+
+@media screen and (max-width:420px){
+
+
+.phoneView_nav{
+  display:block;
+}
+
+.ModularPatternElements-header nav{
+  display:none;
+}
+
+.ModularPatternElements-header a{
+  display:block;
+}
+
+
+  .ModularPatternElements-header nav{
+ flex-direction: column;
+}
+.ModularPatternElements-header nav>a{
+ 
+ text-align:center;
+ width: 100%;
+}
+
+/*  .Melody_nav:hover{
+color:#EBCA94;*/
+
+
+
+.ModularPatternElements-header_icon{
+justify-content: space-between;
+}
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*phone view navigation end*/
