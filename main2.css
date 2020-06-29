@@ -240,6 +240,18 @@ color: #EBCA94;
 
 }
 
+
+@media screen and (max-width:500px){
+
+.product_list{
+    flex-direction: column;
+}
+
+}
+
+
+
+
 /*product list end*/
 
 /*footer part start*/
