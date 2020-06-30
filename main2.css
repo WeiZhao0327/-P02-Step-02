@@ -493,6 +493,9 @@ text-align: center;
   
 }
 
+.remove_button{
+  text-decoration: underline;
+}
 
 .remove_button:hover{
    color: #EBCA94;
