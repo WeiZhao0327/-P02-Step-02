@@ -13,7 +13,10 @@ body {
 
 /*navigation start*/
 
+.Melody_nav:hover{
+  color:#EBCA94;
 
+ }
  #Melody_logo{
     font-size: 24px;
     color: #272727;
@@ -576,3 +579,92 @@ text-align: center;
 
 
 /*cart update end*/
+
+
+
+/*new nav phone view start*/
+
+.phoneView_nav{
+    display:none;
+ }
+
+
+ .phoneView_nav i{
+    color:#FFA8A8;
+    font-size:22pt;
+    
+    margin:0.3rem;
+  
+
+ }
+
+
+@media screen and (max-width:450px){
+  .ModularPatternElements-header nav{
+   flex-direction: column;
+  }
+
+    .ModularPatternElements-header_nav a{
+    display: block;
+  }
+
+  .ModularPatternElements-header_nav a{
+   width:100%;
+   text-align:center;
+  }
+
+
+
+
+
+  .phoneView_nav{
+    display:block;
+  }
+/*
+  .page-header nav{
+    display:none;
+  }*/
+
+
+  .ModularPatternElements-header_nav{
+    display: none;
+  }
+
+  .ModularPatternElements-header:hover nav{
+    display:block;
+    /*font-size:20pt;*/
+  }
+
+ /* .wholeModularPatternElements a{
+    display:block;
+  }*/
+
+ .ModularPatternElements-header_icon{
+  justify-content: space-between;
+ }
+
+
+ .ModularPatternElements-header{
+  flex-direction: column;
+}
+
+  
+ }
+
+
+
+
+/*new nav phone view end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
