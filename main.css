@@ -263,6 +263,7 @@ color: #EBCA94;
   padding-top: 0.2%;
   padding-bottom: 0.2%;
   margin-top: 3%;
+
 }
 
 .footer_part h4 {
@@ -270,7 +271,47 @@ color: #EBCA94;
   text-align: center;
 
 
+
 }
+
+
+.footer_part a{
+  text-decoration: none;
+  color: black;
+
+}
+
+.footer_part_left div{
+  margin-top: 8%;
+}
+
+
+.footer_part{
+  display: flex;
+}
+
+.footer_part div{
+  flex-basis: 50%;
+
+}
+
+
+ @media screen and (max-width:500px){
+ 
+.footer_part a{
+  text-decoration: none;
+  color: black;
+  font-size: 8pt;
+
+}
+
+ .footer_part_left div{
+  margin-top: 20%;
+  font-size: 8pt;
+}
+
+}
+
 
 /*footer part end*/
 
@@ -1841,4 +1882,12 @@ padding-bottom: 8%;
 
 
 /*new phone nav end*/
+
+
+
+
+.footer_link{
+  display: flex;
+  flex-direction: column;
+}
 

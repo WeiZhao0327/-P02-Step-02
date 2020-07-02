@@ -259,7 +259,7 @@ color: #EBCA94;
 /*product list end*/
 
 /*footer part start*/
-.footer_part{
+/*.footer_part{
 background-color: #FEEBEB;
 padding-top: 0.2%;
 padding-bottom: 0.2%;
@@ -271,7 +271,67 @@ margin-top: 3%;
 text-align: center;
 
 
+}*/
+
+.footer_link a{
+  display: block;
 }
+
+
+.footer_part{
+  background-color: #FEEBEB;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  margin-top: 3%;
+
+}
+
+.footer_part h4 {
+
+  text-align: center;
+
+
+
+}
+
+
+.footer_part a{
+  text-decoration: none;
+  color: black;
+
+}
+
+.footer_part_left div{
+  margin-top: 8%;
+}
+
+
+.footer_part{
+  display: flex;
+}
+
+.footer_part div{
+  flex-basis: 50%;
+
+}
+
+
+ @media screen and (max-width:500px){
+ 
+.footer_part a{
+  text-decoration: none;
+  color: black;
+  font-size: 8pt;
+
+}
+
+ .footer_part_left div{
+  margin-top: 20%;
+  font-size: 8pt;
+}
+
+}
+
 
 /*footer part end*/
 
