@@ -632,7 +632,8 @@ text-align: center;
     color:#FFA8A8;
     font-size:22pt;
     
-    margin:0.3rem;
+    margin:2%;
+    margin-left: 5%;
   
 
  }
@@ -650,6 +651,11 @@ text-align: center;
   .ModularPatternElements-header_nav a{
    width:100%;
    text-align:center;
+  }
+
+    .ModularPatternElements-header{
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
 
